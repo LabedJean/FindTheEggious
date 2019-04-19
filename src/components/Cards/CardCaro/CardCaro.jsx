@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText, CardSubtitle } from 'reactstrap';
+import { Card, CardHeader, CardBody,
+    CardTitle, CardText } from 'reactstrap';
 import "./CardCaro.css"
 
 const CardCaro = (props) => {
@@ -13,7 +13,7 @@ const CardCaro = (props) => {
                         <CardTitle></CardTitle>
                         <CardHeader tag="h3">Manager Bunny</CardHeader>
                     </CardBody>
-                    <img id='cardfame' width="150px" src="https://i.ibb.co/DgKhGv3/Caro.png" />
+                    <img id='cardfame' width="150px" src="https://i.ibb.co/DgKhGv3/Caro.png" alt="altalacon" />
                     <CardBody className='CardBot'>
                     </CardBody>
                     <CardBody className='CardBot'>

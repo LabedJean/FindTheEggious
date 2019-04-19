@@ -14,7 +14,7 @@ export default class HeaderEgg extends Component {
     makeApiCall(){
         Axios.get(`${ApiUrl}`)
         .then((res) => {
-            const eggs = res.data.filter(egg => egg.caliber === 'M')
+            const eggs = res.data.filter(egg => egg.rarity === 'legendary')
             const random = eggs[Math.floor(Math.random() * eggs.length)]
             this.setState({dataApi: random})
         })

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Router from '../src/components/router/Router';
-import AleatoirEgg from '../src/components/aleatoirEgg/AleatoirEgg'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +7,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <Router />
-        <AleatoirEgg />
       </React.Fragment>  
     );
   }
