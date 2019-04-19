@@ -5,7 +5,7 @@ import "./CardDavid.css"
 
 const CardDavid = (props) => {
     return (
-        <div>
+        <container className="contain-card2">
             <div className="globaldivfame">
                 {/* <Card>
                     <CardBody>
@@ -44,7 +44,7 @@ const CardDavid = (props) => {
         <CardFooter className="text-muted">Fcuk you</CardFooter>
         
       </Card> */}
-        </div>
+        </container>
 
   );
 };

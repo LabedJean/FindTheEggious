@@ -5,9 +5,8 @@ import "./CardCaro.css"
 
 const CardCaro = (props) => {
     return (
-        <div>
+        <container className="contain-card1">
             <div className="globaldivfame">
-               
                 <Card className='CardGlobal'>
                     <CardBody className='CardTop'>
                         <CardTitle></CardTitle>
@@ -21,10 +20,8 @@ const CardCaro = (props) => {
                     </CardBody>
                 </Card>
             </div>
-            
-        </div>
-
-  );
+        </container>
+    );
 };
 
 export default CardCaro;
