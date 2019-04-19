@@ -9,7 +9,7 @@ class App extends Component {
       <React.Fragment>
         <Router />
         <AleatoirEgg />
-      </React.Fragment>
+      </React.Fragment>  
     );
   }
 }
